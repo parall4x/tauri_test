@@ -1,8 +1,5 @@
 name: covector version or publish
-on:
-  push:
-    branches:
-    - dev
+on: workflow_dispatch
 
 jobs:
   covector:
